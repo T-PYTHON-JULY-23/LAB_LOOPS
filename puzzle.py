@@ -6,7 +6,7 @@
 """
 
 puzzle="what is the product of 7 * 24 ??\n"
-while input(puzzle) != str(7*24):
+while int(input(puzzle)) != 7*24:
     print("Wrong answer Try again !")
 else : 
     print("Right answer Good job ! ")  
